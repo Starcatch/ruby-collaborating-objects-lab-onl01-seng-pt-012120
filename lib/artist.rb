@@ -7,7 +7,9 @@ class Artist
     @@all << self 
   end 
   
+  
   def self.all
+    #This class method should return all Artist instances.
     @@all
   end 
   
