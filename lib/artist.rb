@@ -12,10 +12,12 @@ class Artist
   end 
   
   def add_song(song)
+    #This instance method receives an instance of a Song and #associates it belongs to this Artist instance.
     song.artist = self
   end 
   
   def  songs 
+    
     Song.all.select do |song|
       song.artist == self 
   end 
