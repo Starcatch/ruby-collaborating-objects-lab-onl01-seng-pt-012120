@@ -19,6 +19,7 @@ class Artist
   end 
   
   def  songs 
+    #This instance method returns an Array of all songs that #belong to this Artist instance. This method should get all #existing Song instances from Song and select only the ones #that are associated with this Artist instance.
     Song.all.select do |song|
       song.artist == self 
   end 
