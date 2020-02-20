@@ -10,6 +10,8 @@ class MP3Importer
 end 
 
 def import
-  
-end 
+  slef.files.each do |file|
+    Song.new(file)
+  end 
 end
+end 
