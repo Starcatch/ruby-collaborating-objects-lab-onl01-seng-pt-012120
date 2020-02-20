@@ -12,7 +12,8 @@ def self.all
   @@all
 end 
 
-def self.new_by_filename
-  
+def self.new_by_filename(filename)
+  split_filename = filename.split("_")
+  song = self.new(split_filename[1])
 end 
 end 
