@@ -9,5 +9,7 @@ class MP3Importer
    Dir.entries(self.path).select {|file| file.end_with?(".mp3")}
 end 
 
-def 
+def import
+  
+end 
 end
