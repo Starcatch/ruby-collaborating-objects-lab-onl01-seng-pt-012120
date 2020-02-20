@@ -38,5 +38,5 @@ def self.find(artist_name)
 end
 
 def print_songs 
-  self.songs.each {|song| puts
+  self.songs.each {|song| puts song
 end 
